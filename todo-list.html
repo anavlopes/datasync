@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Todo List</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="app.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.1/jquery.min.js"></script>
+</head>
+<body>
+  <h1>Article</h1>
+  <div id="tasks-output"></div>
+  <form id="form-task" onSubmit="onSubmit(e)">
+    <input type="text" name="nome" id="name" placeholder="escreva seu nome" required>
+    <input type="email" name="email" placeholder="escreva seu email" required>
+    <textarea type="message" name="message" placeholder="escreva seu message" required></textarea>
+    <input type="submit" value="Salvar">
+  </form>
+</body>
+</html>
